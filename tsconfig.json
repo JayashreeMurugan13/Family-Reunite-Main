@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "types": ["@types/node"], // ✅ This line is correct
+      "jsx": "preserve",
+      "esModuleInterop": true,
+      "lib": ["ESNext", "DOM"]
+    }
+  }
